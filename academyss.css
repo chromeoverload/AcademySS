@@ -1,4 +1,85 @@
 /*!
- * AcademySS v1.1 (https://getbootstrap.com/)
+ * AcademySS v1.1 (https://chromeoverload.github.io/academyss/)
  * Copyleft 2019 Jared Butler
+ * Utilizes the "Tinos" font, a metrically-equivalent alternative to Times New Roman released under the Apache 2.0 license (https://fonts.google.com/specimen/Tinos)
  */
+
+/* REPORT SECTIONS */
+
+.report {
+    font-family: 'Tinos', serif;
+}
+
+.header {
+    margin-left: 30%; margin-right: 30%
+}
+
+.abstract {
+
+}
+
+.fulltext {
+    margin-left: 15%; margin-right: 15%; padding-top: 0%; margin-top: 5%; font-size: 1.5vw
+}
+
+.bibliography {
+
+}
+
+/* REPORT ELEMENTS */
+
+.title {
+    font-weight: bold; font-size: 3vw
+}
+
+.author {
+
+}
+
+.qualifications {
+
+}
+
+.chart {
+
+}
+
+.imagedisplay {
+
+}
+
+/* FORMATTING */
+
+.centered {
+    text-align: center
+}
+
+.twocolumns {
+    column-count: 2;
+}
+
+.justify {
+    text-align: justify
+}
+
+.rightaligned {
+    text-align: right
+}
+
+/* STYLING */
+
+.bottomdivider-1 {
+    border-bottom-style: double; border-color: #000; border-width: thick; padding-bottom: 5%
+}
+
+.bottomdivider-2 {
+    border-bottom-style: dashed; border-color: #000; border-width: thick; padding-bottom: 5%
+}
+
+.topdivider-1 {
+    border-top-style: double; border-color: #000; border-width: thick; padding-top: 5%
+}
+
+.topdivider-2 {
+    border-top-style: dashed; border-color: #000; border-width: thick; padding-top: 5%
+}
